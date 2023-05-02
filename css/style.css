@@ -86,11 +86,185 @@ main
 .card
 {
     height:140px;
-    background-image:url(https://picsum.photos/200/140);
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
     position:relative;
+}
+
+#jonathan
+{
+    background-image:url(../img/Jonathan.jpg);
+}
+
+#joseph
+{
+    background-image:url(../img/Joseph.jpg);
+}
+
+#jotaro
+{
+    background-image:url(../img/Jotaro.webp);
+}
+
+#josuke
+{
+    background-image:url(../img/Josuke.png);
+}
+
+#giorno
+{
+    background-image:url(../img/Giorno.jpg);
+}
+
+#jolyne
+{
+    background-image:url(../img/Jolyne.jpg);
+}
+
+#speedwagon
+{
+    background-image:url(../img/Speedwagon.png);
+}
+
+#zeppeli
+{
+    background-image:url(../img/Zeppeli.jpg);
+}
+
+#caesar
+{
+    background-image:url(../img/Caesar.jpg);
+}
+
+#stroheim
+{
+    background-image:url(../img/Stroheim.jpg);
+}
+
+#esidisi
+{
+    background-image:url(../img/Esidisi.jpg);
+}
+
+#wamuu
+{
+    background-image:url(../img/Wamuu.jpg);
+}
+
+#kars
+{
+    background-image:url(../img/Kars.png);
+}
+
+#kakyoin
+{
+    background-image:url(../img/Kakyoin.jpg);
+}
+
+#polnareff
+{
+    background-image:url(../img/Polnareff.jpg);
+}
+
+#abdul
+{
+    background-image:url(../img/Abdul.jpg);
+}
+
+#dio
+{
+    background-image:url(../img/Dio.jpg);
+}
+
+#okuyasu
+{
+    background-image:url(../img/Okuyasu.jpg);
+}
+
+#koichi
+{
+    background-image:url(../img/Koichi.jpg);
+}
+
+#rohan
+{
+    background-image:url(../img/Rohan.png);
+}
+
+#tonio
+{
+    background-image:url(../img/Tonio.jpg);
+}
+
+#mikitaka
+{
+    background-image:url(../img/Mikitaka.jpg);
+}
+
+#kira
+{
+    background-image:url(../img/Kira.png);
+}
+
+#bucciarati
+{
+    background-image:url(../img/Bucciarati.jpg);
+}
+
+#mista
+{
+    background-image:url(../img/Mista.jpg);
+}
+
+#narancia
+{
+    background-image:url(../img/Narancia.jpg);
+}
+
+#abbacchio
+{
+    background-image:url(../img/Abbacchio.jpg);
+}
+
+#fugo
+{
+    background-image:url(../img/Fugo.jpg);
+}
+
+#trish
+{
+    background-image:url(../img/Trish.jpg);
+}
+
+#diavolo
+{
+    background-image:url(../img/Diavolo.jpg);
+}
+
+#ermes
+{
+    background-image:url(../img/Ermes.jpg);
+}
+
+#foo-fighters
+{
+    background-image:url(../img/foo-fighters.jpg);
+}
+
+#weather
+{
+    background-image:url(../img/Weather.jpg);
+}
+
+#anasui
+{
+    background-image:url(../img/Anasui.png);
+}
+
+#pucci
+{
+    background-image:url(../img/Pucci.webp);
 }
 
 .card > .username
