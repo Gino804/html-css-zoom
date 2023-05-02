@@ -11,9 +11,19 @@
 
 body
 {
+    margin-top:50px;
     overflow:hidden;
+    background-color:black;
     color:white;
     font-family:sans-serif;
+}
+
+/* Utilities */
+
+.container
+{
+    max-width:90vw;
+    margin:0 auto;
 }
 
 /* Header */
@@ -53,13 +63,49 @@ header
 
 main
 {
-    margin-top:50px;
-    padding-top:50px;
+    padding-top:30px;
     padding-bottom:30px;
     background-color:black;
-    color:white;
     overflow-y:auto;
     height:calc(100vh - 150px);
+}
+
+.row
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.column
+{
+    flex-basis:calc(100% / 7);
+    padding:6px 3px;
+}
+
+.card
+{
+    height:140px;
+    background-image:url(https://picsum.photos/200/100);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    position:relative;
+}
+
+.card > .username
+{
+    background-color:rgba(146, 140, 140, 0.5);
+    padding:4px 5px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    font-size:13px;
+}
+
+.card .fa-microphone-slash
+{
+    margin-right:3px;
 }
 
 /* Footer */
