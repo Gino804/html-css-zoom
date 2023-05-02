@@ -12,6 +12,8 @@
 body
 {
     overflow:hidden;
+    color:white;
+    font-family:sans-serif;
 }
 
 /* Header */
@@ -25,6 +27,26 @@ header
     top:0;
     left:0;
     width:100vw;
+}
+
+.views
+{
+    position:absolute;
+    top:5px;
+    right:0;
+}
+
+.views span
+{
+    background-color:#4A4A4A;
+    font-size:13px;
+    padding:4px 5px;
+    border-radius:5px;
+}
+
+.fa-table-cells
+{
+    margin-right:3px;
 }
 
 /* Main */
