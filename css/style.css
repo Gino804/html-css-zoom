@@ -67,7 +67,7 @@ main
     padding-bottom:30px;
     background-color:black;
     overflow-y:auto;
-    height:calc(100vh - 150px);
+    height:calc(100vh - 120px);
 }
 
 .row
@@ -86,7 +86,7 @@ main
 .card
 {
     height:140px;
-    background-image:url(https://picsum.photos/200/100);
+    background-image:url(https://picsum.photos/200/140);
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
@@ -112,11 +112,74 @@ main
 
 footer
 {
-    height:100px;
+    height:70px;
     background-color:#222;
     position:fixed;
     z-index:1;
     bottom:0;
     left:0;
     width:100vw;
+    display:flex;
+}
+
+.audio-video
+{
+    flex-basis:10vw;
+}
+
+.end-meeting
+{
+    flex-basis:7vw;
+}
+
+.audio-video, .tools
+{
+    display:flex;
+}
+
+.tools
+{
+    flex-basis:83vw;
+    justify-content:center;
+}
+
+.tool
+{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    justify-content:center;
+    margin:0 10px;
+    text-align:center;
+}
+
+.tool > i
+{
+    font-size:25px;
+}
+
+.tool > span
+{
+    font-size:13px;
+    padding-top:10px;
+}
+
+footer .fa-chevron-up
+{
+    line-height:70px;
+    font-size:10px;
+}
+
+footer .fa-share-from-square
+{
+    color:#4AC701;
+}
+
+.end-meeting
+{
+    background-color:#4A4A4A;
+    color:red;
+    text-align:center;
+    line-height:70px;
+    font-size:13px;
 }
